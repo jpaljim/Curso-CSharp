@@ -1,0 +1,36 @@
+﻿body {
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+li {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+}
+
+.textoAzul {
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.textoRojo {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .textoRojo:hover {
+        text-decoration: underline;
+    }
+
+.textoAzul:hover {
+    background-color: blue;
+    font-style:italic;
+    transition: 1500ms;
+}
+

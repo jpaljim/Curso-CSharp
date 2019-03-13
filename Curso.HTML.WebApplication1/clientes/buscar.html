@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Consulta Datos del cliente</title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12">
+            <form action="ficha-cliente.aspx" method="get">
+                <label class="col-form-label">Identificador</label>
+                <input type="text" class="input-group-text" name="identificador" required pattern="[A-Z]{5}"  maxlength="5" />
+                <br />
+                <button type="submit" class="btn btn-success">Obtener información</button>
+            </form>
+            
+        </div>
+
+        
+    </div>
+</body>
+</html>

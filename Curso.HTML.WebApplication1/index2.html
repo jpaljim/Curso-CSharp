@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo JavaScript</title>
+</head>
+<body>
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script>
+        //'use strict';
+        var num = 7;
+
+        
+
+        window.onload = function () {
+            document.write(num + '<br />');
+            (function (a) {
+                var num = a;
+
+                num += 30;
+                document.write(num + '<br />');
+            })(100);
+
+            (function (a) {
+                var num = a;
+
+                num += 100;
+                document.write(num + '<br />');
+            })(num);
+
+            document.write(num + '<br />');
+        };
+
+        $(document).ready(function () {
+
+        });
+    </script>
+</body>
+</html>
